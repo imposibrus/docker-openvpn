@@ -33,4 +33,4 @@ RUN chmod a+x /usr/local/bin/*
 # Add support for OTP authentication using a PAM module
 ADD ./otp/openvpn /etc/pam.d/
 
-COPY ./named.conf /etc/bind/named.conf
+COPY ./bind/named.conf /etc/bind/named.conf
